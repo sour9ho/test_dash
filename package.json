@@ -17,12 +17,11 @@
   "scripts": {
     "start": "cross-env NODE_PATH=src react-scripts start",
     "build": "cross-env NODE_PATH=src react-scripts build",
-    "postbuild": "cp build/index.html build/404.html",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build"
   },
-  "hompage": "https://sour9ho.github.io/test_dash",
+  "hompage": "https://sour9ho.github.io",
   "eslintConfig": {
     "extends": [
       "react-app",
