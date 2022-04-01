@@ -21,7 +21,7 @@
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build"
   },
-  "hompage": "https://sour9ho.github.io",
+  "hompage": "https://sour9ho.github.io/test_dash/",
   "eslintConfig": {
     "extends": [
       "react-app",
