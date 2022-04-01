@@ -25,7 +25,7 @@ function App() {
   return (
     <>
       <AppBlock>
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <BrowserRouter basename="/test_dash">
           <Routes>
             <Route exact path="/" element={
               <Home

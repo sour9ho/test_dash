@@ -57,6 +57,8 @@ function Result( { result, testName } ) {
     text += "\n"
     text += `⭕채점표❌\n`
     text += `${parsedResultText}`
+    text += "\n"
+    text += "https://sour9ho.github.io/test_dash/"
     navigator.clipboard.writeText(text)
   }
 
