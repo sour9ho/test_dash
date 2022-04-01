@@ -72,7 +72,7 @@ function Home({questionInfo, testName}) {
           testName={testName}
         />
         <TestCautionBlock className="test-caution-block">
-          <TestCautionLi>{`본 시험은 소설 '${testName}'의 2차 창작임을 밝힙니다.`}</TestCautionLi>
+          <TestCautionLi>{`본 시험은 소설 '이젠(ijen)' 작가님이 쓰신 '${testName}'의 2차 창작임을 밝힙니다.`}</TestCautionLi>
           <TestCautionLi>{`
             시험은 총 ${numOfQuestions}문제이며,
             ${multipleAnswer !== 0 ? `객관식 ${multipleAnswer}문제` : ""}${(multipleAnswer !== 0 && shortAnswer !== 0) ? "와 " : ""}${shortAnswer !== 0 ? `주관식 ${shortAnswer}문제` : ""}로
@@ -80,7 +80,7 @@ function Home({questionInfo, testName}) {
           `}</TestCautionLi>
           <TestCautionLi>{`총점은 ${totalScore}점입니다.`}</TestCautionLi>
           <TestCautionLi>{`문항에 따라 배점이 다르니, 각 물음의 끝에 표시된 배점을 참고해주세요.`}</TestCautionLi>
-          <TestCautionLi>{`시험지를 제출하기 전, 모든 문항에 답했는지 다시 한 번 확인해주세요. 모든 문항에 답해야 .`}</TestCautionLi>
+          <TestCautionLi>{`모든 문항에 답해야 시험지를 제출할 수 있습니다. 시험지를 제출하기 전, 모든 문항에 답했는지 다시 한 번 확인해주세요.`}</TestCautionLi>
           <TestCautionLi>{`준비가 끝나면 아래의 '시험 시작' 버튼을 눌러 시험을 시작해주세요.`}</TestCautionLi>
         </TestCautionBlock>
         <ButtonWrapper>
