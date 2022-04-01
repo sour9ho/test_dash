@@ -1,11 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import Play from './pages/Play';
-import { sampleQuestions } from './data/sampleQuestions';
-import useQuestions from './hooks/useQuestions';
-import './App.css'
+import Home from 'pages/Home';
+import Play from 'pages/Play';
+import { sampleQuestions } from 'data/sampleQuestions';
+import useQuestions from 'hooks/useQuestions';
+import 'App.css'
 
 
 const AppBlock = styled.div`

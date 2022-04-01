@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { questionType } from '../constants/constants'
+import { questionType } from 'constants/constants'
 
 /*
 questions = {

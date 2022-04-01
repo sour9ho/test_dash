@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import styled from 'styled-components'
-import Title from "../../components/Title/Title";
-import Questions from "../../components/Questions/Questions";
-import Progress from '../../components/Progress/Progress';
-import useQuestions from "../../hooks/useQuestions";
-import Result from "../Result";
+import Title from "components/Title/Title";
+import Questions from "components/Questions/Questions";
+import Progress from 'components/Progress/Progress';
+import useQuestions from "hooks/useQuestions";
+import Result from "pages/Result";
 
 const PlayBlock = styled.div`
   margin: 0 auto;

@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
-import DivisionLine from '../DivisionLine/DivisionLine';
-import Description from '../Description/Description';
-import UserInput from '../UserInput/UserInput';
+import DivisionLine from 'components/DivisionLine/DivisionLine';
+import Description from 'components/Description/Description';
+import UserInput from 'components/UserInput/UserInput';
 
 const ShortQuestionBlock = styled.div`
   margin: 0 15% 3rem 15%;

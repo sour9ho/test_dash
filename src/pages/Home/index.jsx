@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import Title from "../../components/Title/Title";
-import HyperLink from "../../components/HyperLink/HyperLink";
-import DivisionLine from "../../components/DivisionLine/DivisionLine";
+import Title from "components/Title/Title";
+import HyperLink from "components/HyperLink/HyperLink";
+import DivisionLine from "components/DivisionLine/DivisionLine";
 
 const HomeBlock = styled.div`
   margin: 6rem 15% 5rem 15%;

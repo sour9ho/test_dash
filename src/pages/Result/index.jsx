@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import Title from "../../components/Title/Title";
-import GradeCard from "../../components/GradeCard/GradeCard";
+import Title from "components/Title/Title";
+import GradeCard from "components/GradeCard/GradeCard";
 import { Link } from "react-router-dom";
 
 const ResultBlock = styled.div`

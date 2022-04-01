@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Option from "../Option/Option";
+import Option from "components/Option/Option";
 
 const OptionsBlock = styled.div`
   margin: 1rem 0.5rem 0 0.5rem;

@@ -1,4 +1,4 @@
-import { questionType } from "../constants/constants"
+import { questionType } from "constants/constants"
 
 export const sampleQuestions = {
     0: {

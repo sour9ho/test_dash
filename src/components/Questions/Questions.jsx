@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import MultipleQuestion from "../Question/MultipleQuestion";
-import ShortQuestion from "../Question/ShortQuestion";
-import { questionType } from '../../constants/constants'
+import MultipleQuestion from "components/Question/MultipleQuestion";
+import ShortQuestion from "components/Question/ShortQuestion";
+import { questionType } from 'constants/constants'
 
 const QuestionsBlock = styled.div`
   margin-bottom: 7rem;

@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
-import DivisionLine from '../DivisionLine/DivisionLine';
-import Description from '../Description/Description';
-import Options from '../Options/Options';
+import DivisionLine from 'components/DivisionLine/DivisionLine';
+import Description from 'components/Description/Description';
+import Options from 'components/Options/Options';
 
 const MultipleQuestionBlock = styled.div`
   margin: 0 15% 3rem 15%;
